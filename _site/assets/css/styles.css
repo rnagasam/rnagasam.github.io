@@ -2,4 +2,6 @@ h1 { color: darkblue; }
 
 h2 { color: darkblue; }
 
-body { font-family: "Fira Sans", sans-serif; }
+body { background-color: #fffff0; font-family: "Fira Sans", sans-serif; }
+
+a:hover { background-color: lightgreen; }

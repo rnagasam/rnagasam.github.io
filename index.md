@@ -17,11 +17,9 @@ advised by [Dave Naumann](https://dnaumann.github.io) and
 (unofficially) by [Anindya Banerjee](https://software.imdea.org/~ab/).
 I'm part of the [Cypress](https://mgree.github.io/cypress) research group.
 
-[Curriculum Vitae]({{ site.url }}/assets/docs/RamanaNagasamudramCV.pdf), [Google Scholar](https://scholar.google.com/citations?user=XBEIwuUAAAAJ&hl=en&oi=ao), [DBLP](https://dblp.org/pid/284/1130.html), [GitHub](https://github.com/rnagasam), [LinkedIn](https://linkedin.com/in/rnagasam0)
+Links: [Curriculum Vitae]({{ site.url }}/assets/docs/RamanaNagasamudramCV.pdf), [Google Scholar](https://scholar.google.com/citations?user=XBEIwuUAAAAJ&hl=en&oi=ao), [DBLP](https://dblp.org/pid/284/1130.html), [GitHub](https://github.com/rnagasam), [LinkedIn](https://linkedin.com/in/rnagasam0)
 
 Contact: rnagasam [at] stevens [dot] edu
-
-----
 
 ## Research
 
@@ -33,13 +31,11 @@ addresses this problem by building tools and techniques for
 programs.  The goal is to formally account for code updates,
 bug-fixes, optimizations, etc. in the simplest possible manner.
 
-I'm interested in program logics and tooling for verification.  I
-primarily use the [Coq](https://coq.inria.fr/) proof assistant and the
-[Why3](https://www.why3.org) deductive verification platform.  Even in
-research projects where proofs are mostly done in pen-and-paper, I've
-found these tools to be immensely valuable "debugging" aids.
+I'm interested in program logics and tooling for verification:
+interactive proof assistants and auto-active verifiers.
 
-----
+My thesis title is *Auto-active relational verification and alignment
+completeness*.
 
 ## Publications
 
@@ -83,15 +79,11 @@ found these tools to be immensely valuable "debugging" aids.
   IEEE Logic in Computer Science (LICS), 2021.\\
   [Pre-print (PDF)]({{ site.url }}/assets/papers/LICS2021.pdf), [Talk slides (PDF)]({{ site.url }}/assets/talks/LICS2021.pdf)
 
-----
-
 ## Service
 
 **Artifact evaluation**: POPL 2023, ICFP 2023, ICFP 2024\\
 **Sub-reviewer**: POPL 2023, ECOOP 2024\\
 **Student volunteer**: POPL 2021
-
-----
 
 ## Teaching
 
@@ -101,12 +93,8 @@ I've TA'd the following courses at Stevens:
 - *Type systems for Programming Languages* (with Eduardo Bonelli): Spring 2019
 - *Algorithms, Design and Implementation* (with Reza Peyrovian): Fall 2018
 
-----
-
 ## Software artifacts
 
 - A verified C implementation of Derecho's SST data structure [(Zenodo)](https://zenodo.org/records/10819602)
 - The WhyRel relational verifier [(GitHub)](https://github.com/dnaumann/RelRL.git)
 - Coq formalization of BiKAT [(Zenodo)](https://zenodo.org/records/7144067)
-
-----
