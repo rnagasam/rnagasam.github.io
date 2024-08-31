@@ -1,29 +1,65 @@
-h1 {
-    color: darkblue;
-}
+// h1 {
+//     color: darkblue;
+// }
 
-h2 {
-    color: darkblue;
-}
+// h2 {
+//     color: darkblue;
+// }
 
 body {
-    background-color: #fffff0;
-    font-family: "Fira Sans", sans-serif;
+    // background-color: #fffff0;
+    // font-family: "Fira Sans", sans-serif;
+    max-width: 960px;
+    margin: auto;
+    margin-top: 10px;
+    // font-family: monospace;
+    // font-family: "Roboto", sans-serif;
 }
 
-a:hover {
-    text-decoration: none;
-    background-color: lightgreen;
+.myphoto {
+    float: right;
+    margin: 5px;
+    // shadow:
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-a:visited {
-    text-decoration: none;
+nav {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    // padding-top: 5px;
+    // padding-bottom: 5px;
+}
+nav:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+// nav a {
+//     text-decoration: none;
+//     color: black;
+// }
+.current {
+    font-weight: bold;
+}
+.dash {
+    border-top: 2px solid black;
+    width: 100%;
+    height: 0px;
 }
 
-a:active {
-    text-decoration: none;
-}
+// a:hover {
+//     text-decoration: none;
+//     background-color: lightgreen;
+// }
 
-a:link {
-    text-decoration: none;
-}
+// a:visited {
+//     text-decoration: none;
+// }
+
+// a:active {
+//     text-decoration: none;
+// }
+
+// a:link {
+//     text-decoration: none;
+// }
